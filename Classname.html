@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ClassName </title>
+</head>
+<body>
+    <div class = "cls_err"> Error 1 </div>
+    <div class = "cls_err"> Error 2 </div>
+    <p class = "cls_warning"> Warning1</p>
+    <p class = "cls_warning"> Warning2</p>
+    <div class = "cls_err"> Error 3 </div>
+    <script>
+        let err = document.getElementsByClassName("cls_err")
+        let warning = document.getElementsByClassName("cls_warning")
+    for(let i = 0; i < err.length; i++)
+    {    
+        err[i].style.color = "red"
+    }
+    for(let i = 0; i < warning.length; i++)
+    {
+            warning[i].style.color = "orange"
+    } 
+    
+    </script>
+</body>
+</html>
+        
