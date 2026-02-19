@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Registration</title>
+    <style>
+        #dcounter
+        {
+            height: 30px; width: 30px; font-size: 20px; text-align: center;
+            color: blue; font-weight: bold;
+        }
+        #btnincrement
+        {   
+            height: 35px;
+            width: 40px;
+            background-color: orange;
+            text-align: center;   
+        }
+    </style>
+</head>
+<body>
+    <div id = "dcounter"></div>
+    <input type = "button" value = "+" id = "btnincrement">
+    <script>
+        const dcounter = document.getElementById("dcounter")
+        const btnincrement = document.getElementById("btnincrement")
+        let counter = 0
+        dcounter.innerText = count
+        function increment()
+        {
+            count = counter+1
+            dcounter.innerText = count
+        }
+        btnincrement.addEventListener("click", increment)
+    </script>
+</body>
+</html>

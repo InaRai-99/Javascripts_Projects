@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping List</title>
-    <link rel="stylesheet" href="Style_SL.css">
+    <style>
+        .added-item
+        {
+            color: green;
+            background-color: lightblue;
+
+        }
+    </style>
 </head>
 <body>
     <h1>My Shopping List</h1>
-
-    <img src="" id = "img_profile" alt="">
-    <div id = "Items">
-
-    </div>  
-    <h2> Add Items </h2>
-    <ul id = "ul_Items"> 
+<input type ="text" id = "new-item-input">
+<button id = "add-items-btn"> Add Items </button>
+<ul id = "shopping-list"> 
     
-    </ul>
-    <br>
-    <button id = "Add-Items-btn"> Add Items </button>
-    <script src="Script_SL.js"></script>
+</ul>
+<script src="Script_SL.js"></script>
 </body>
 </html>
