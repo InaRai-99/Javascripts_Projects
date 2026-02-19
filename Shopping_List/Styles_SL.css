@@ -1,0 +1,19 @@
+h1
+{
+    color: green;
+    text-align: center;
+    text-decoration: line-through;
+
+}
+
+h2
+{
+    color: black;
+    text-decoration: line-through;
+}
+#img_profile
+{
+height: 150px;
+width: 150px;
+border-radius: 80%;
+}
