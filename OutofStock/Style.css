@@ -1,0 +1,10 @@
+.Out-Of-Stock-image
+{
+    filter: grayscale(100%)
+    opacity(0.7)
+}
+.Out-Of-Stock-btn
+{
+    background-color: blanchedalmond;
+    cursor: not-allowed;
+}
